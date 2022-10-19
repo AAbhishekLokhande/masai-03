@@ -6,6 +6,9 @@ input pass = abc123;
 if (reg user==input user && reg pass==input pass){
 console.log("login successfully ");
 }
+else if (reg user!=input user){
+  console.log("no user found");
+}
 else{
 console.log("wrong crendential");
 }
